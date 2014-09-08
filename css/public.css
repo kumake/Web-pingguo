@@ -1,0 +1,122 @@
+@charset "gb2312";
+html,body,div,table,th,td,p,ul,li,aa,dl,dt,dd{ font-family:Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; padding: 0px; margin:0px; color:#787878}
+body{ text-align:center}
+div{ overflow:hidden}
+a{ text-decoration:none; outline:none; }
+table,th,td{ border-collapse:collapse; border-spacing:0px; vertical-align:top}
+ul,li{ list-style-type:none; background-repeat:no-repeat}
+#container{ margin:0px auto;width:1003px; text-align:left}
+a:link{ color:#787878}/*常规，非访问超链接*/
+a:visited{ color:#787878}/*访问超链接*/
+a:hover { color:#333333; text-decoration: none}/*访问者操作鼠标通过时的链接 */
+a:active{ color:#990000; text-decoration:underline}/*点击链接*/
+img{ border:none}
+
+/*分页样式*/
+#Divpage{width:290px; margin:0 auto; text-align:center; padding-left:10px; padding-top:18px;}
+#Divpage li{ float:left; width:auto; padding:2px;}
+#Divpage li a { color:#333; font-size:12px; }
+#Divpage li a:visited { color:#333; font-size:12px; }
+#Divpage li a:hover { color:#0079b8; font-size:12px; }
+
+
+
+
+
+/*sidebar类别*/
+.proLi{ width:160px; line-height:30px; border-bottom:#CCCCCC solid 1px; display:block; background:url(../images/li.jpg) no-repeat 30px 50%; padding-left:50px; margin-left:32px;}
+
+a.nav{ width:100px; text-align:center; display:block; float:left; color:#FFFFFF; line-height:30px;}
+
+
+#footer{
+padding-top:20px;
+}
+
+#footer p{ 
+line-height:25px;
+text-align:center;
+}
+
+#nav{
+padding-top:14px;
+margin-left:80px;
+}
+
+#nav li{
+line-height:36px;
+font-size:14px;
+font-weight:bold;
+}
+
+#nav li a{
+color:#333;
+}
+
+#left_list{
+padding-top:7px;
+margin-left:40px;
+}
+
+#left_list li{
+line-height:33px;
+font-size:13px;
+font-weight:bold;
+color:#5194DA;
+}
+
+#left_list li a{
+color:#5194DA;
+}
+
+#neiye_main{
+margin:0px 10px;
+}
+
+#neiye_text{
+line-height:25px;
+}
+
+#index_about{
+margin:0px 20px;
+}
+
+#index_about p{
+line-height:25px;
+}
+
+#index_news{
+margin:5px 20px;
+}
+#index_news li{
+line-height:24px;
+}
+
+.index_ss{
+margin:0px 10px;
+height:136px;
+line-height:27px;
+color:#0099FF;
+}
+
+.index_ss p{
+color:#0099FF;
+}
+
+#index_lxwm{
+margin:5px 30px;
+}
+#index_lxwm p{
+color:#CC3300;
+line-height:30px;
+}
+
+
+#neiye_con{
+padding-top:5px;
+margin-left:40px;
+}
+
+#neiye_con li{
+line-height:33px;
+}
